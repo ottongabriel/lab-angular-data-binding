@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms'; // NEED THIS
 import { HttpModule } from '@angular/http';
+
 
 import { AppComponent } from './app.component';
 import { FoodListComponent } from './food-list/food-list.component';
@@ -13,7 +14,7 @@ import { FoodListComponent } from './food-list/food-list.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
+    FormsModule, // NEED THIS FOR EVERY PROJECT
     HttpModule
   ],
   providers: [],
